@@ -1,10 +1,92 @@
+body{
+  background-image: url('../public/wall1.jpg');
+}
+p{
+  margin: 0%;
+  padding: 0%;
+}
 .App {
   text-align: center;
 }
 
+.b-w{
+  overflow: hidden;
+  height:100vh;
+ 
+}
+.big-container{
+  width: 140vw;
+  transform: rotateX(360deg) rotateY(0deg) rotateZ(20deg) translate(60%, -30%) scale(2,2);
+  
+  /* transform: rotate(35deg); */
+}
+
+.wave-container{
+  display: flex;
+  margin: 0px;
+  padding: 0%;
+  overflow: hidden;
+    /* transform: translate(-0%, -50%);*/  
+}
+.space{
+  overflow: hidden;
+  margin: 0%;
+  padding: 0%;
+  height: 40vh;
+  background-color:#212529;
+
+}
+.Up-wave{
+  margin: 0%;
+  padding: 0%;
+  width: 50vw;
+}
+.wave-container{
+  
+  margin: 0px;
+  padding: 0%;
+  overflow: hidden;
+    /* transform: translate(-0%, -50%);*/  
+}
+.space{
+  overflow: hidden;
+  margin: 0%;
+  padding: 0%;
+  height: 30vh;
+  background-color:#212529;
+
+}
+.Up-wave{
+  margin: 0%;
+  padding: 0%;
+
+}
+
+
+.big-container1{
+  width: 80vw;
+  transform:rotateX(360deg) rotateY(0deg) rotateZ(20deg)translate(0%, -40%) scale(1.5,1.5);
+  
+  /* transform: rotate(35deg); */
+}
+.wave-container1{
+  overflow: hidden;
+    /* transform: translate(-0%, -50%);*/  
+}
+.space1{
+  margin: 0%;
+  padding: 0%;
+  height: 30vh;
+  background-color:#212529;
+}
+.down-wave1{
+  margin: 0%;
+  padding: 0%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
