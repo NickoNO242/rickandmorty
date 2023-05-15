@@ -16,7 +16,7 @@ function App() {
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        setCharacteres(data.results);
+        setCharacteres(characters.concat(data.results));
         setInfo(data.info);
       })
 
@@ -47,6 +47,7 @@ function App() {
           onAnterior={paginaAnterior}
           onSiguiente={paginaSiguiente}
         />
+        {console.log(characters)}
         <Characters characters={characters} />
         <Pagination
           prev={info.prev}
