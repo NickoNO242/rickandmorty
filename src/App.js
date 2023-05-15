@@ -41,7 +41,7 @@ function App() {
         <Wave />
       </div> */}
       <div className="container mt-4">
-        {/* <Pagination
+        <Pagination
           prev={info.prev}
           next={info.next}
           onAnterior={paginaAnterior}
@@ -53,10 +53,10 @@ function App() {
           next={info.next}
           onAnterior={paginaAnterior}
           onSiguiente={paginaSiguiente}
-        /> */}
-      <div className="pt-4">
+        />
+      {/* <div className="pt-4">
       <DirectorySelector />
-      </div>
+      </div> */}
       </div>
       {/* <div className="b-w1">
         <Wave1 />
